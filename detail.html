@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bukit Panaikang Residence</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div id="preloader">
+    <div class="loader"></div>
+  </div>
+
+  <nav class="navbar">
+    <div class="logo">BukitPanaikangResidence.com</div>
+    <ul class="nav-menu">
+      <li><a href="#home">Beranda</a></li>
+      <li><a href="#gallery">Galeri Komersil</a></li>
+      <li><a href="#types">Tipe</a></li>
+      <li><a href="#contact">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <header id="home" class="hero">
+    <div class="hero-overlay">
+      <div class="hero-text" data-aos="fade-up">
+        <h1>Hunian Modern Bukit Panaikang</h1>
+        <p>Strategis, nyaman, dan berkualitas</p>
+        <a href="#contact" class="cta-button">Hubungi Kami</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="gallery" class="gallery-section">
+    <h2 data-aos="fade-up">Galeri</h2>
+    <div class="swiper gallery-slider" data-aos="zoom-in">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="images/rumah1.jpg" alt="Rumah 1"></div>
+        <div class="swiper-slide"><img src="images/rumah2.jpg" alt="Rumah 2"></div>
+        <div class="swiper-slide"><img src="images/rumah3.jpg" alt="Rumah 3"></div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <section id="types" class="types-section">
+    <h2 data-aos="fade-up">Tipe Rumah</h2>
+    <div class="types-container">
+      <div class="type-card" data-aos="fade-up">
+        <h3>2 Kamar Tidur</h3>
+        <p>Hunian ideal untuk keluarga kecil atau pasangan muda, dilengkapi dua kamar tidur nyaman dengan pencahayaan alami dan sirkulasi udara yang baik. Cocok untuk istirahat dan aktivitas harian yang tenang dan berkualitas.</p>
+      </div>
+      <div class="type-card" data-aos="fade-up" data-aos-delay="100">
+        <h3>Kamar Mandi Nyaman</h3>
+        <p>Dirancang dengan kebersihan dan kenyamanan sebagai prioritas, kamar mandi dilengkapi sanitasi modern dan ventilasi yang baik, menciptakan ruang yang higienis dan menyegarkan setiap hari.</p>
+      </div>
+      <div class="type-card" data-aos="fade-up" data-aos-delay="200">
+        <h3>Carport</h3>
+        <p>Tersedia carport yang cukup untuk satu kendaraan, dengan desain terbuka yang memudahkan akses serta memberi perlindungan dari panas dan hujan.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section" data-aos="fade-up">
+    <h2>Kontak Kami</h2>
+    <p>Hubungi via WhatsApp, Instagram, atau lihat lokasi di Google Maps.</p>
+    <div class="contact-buttons">
+      <a href="https://wa.me/62895403047867" target="_blank" class="btn-wa">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="https://www.instagram.com/alizah_property" target="_blank" class="btn-ig">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://maps.app.goo.gl/hLCo7NEz8R9K66n36?g_st=ipc" target="_blank" class="btn-map">
+        <i class="fas fa-location-dot fa-2x"></i>
+      </a>
+      
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Bukit Panaikang Residence. Dibuat oleh Angga.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
